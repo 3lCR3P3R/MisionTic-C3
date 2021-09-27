@@ -1,0 +1,34 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.card {
+    max-width: 250px;
+    /* background-color:#746D75!important; */
+}
+
+.card-text {
+   font-size: 20px;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.card-img-top { 
+    height: 300px;
+        
+}
+
+.card-text {
+      width: 200px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+}
+.card-deck {
+    margin:60px auto 0px auto!important;
+}
+
+
