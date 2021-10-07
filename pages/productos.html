@@ -2,178 +2,207 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>N'T Just Aesthetics - Productos</title>
-
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>N'T Just Aesthetics - Productos</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/productos.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="shortcut icon" href="../img/Icono.jpeg" />
+	<link rel="shortcut icon" href="../img/Icono.jpeg" />
 </head>
 
 <body id="body">
 
-  <header class="header">
+	<header class="header">
+		<div class="container-fluid d-flex justify-content-center">
+			<div class="row">
+				<div class="col">
+					<h1 class="titulo text-center">
+						<img src="../img/pod.png" alt="" width="60" height="44"
+							class="d-inline-block align-text-top">
+						N'T Just Aesthetics
+					</h1>
+				</div>
+			</div>
+		</div>
 
-    <div class="container-fluid d-flex justify-content-center">
+		<div class="container-fluid d-flex justify-content-center" style="padding-bottom: 15px;">
+			<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+				<div class="container-fluid">
 
-      <div class="row">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
 
-        <div class="col">
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link active" href="../index.html">Inicio</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Hombre
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="">Camisetas</a></li>
+									<li><a class="dropdown-item" href="">Pantalones</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Mujer
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="">Blusas</a></li>
+									<li><a class="dropdown-item" href="">Camisetas</a></li>
+									<li><a class="dropdown-item" href="">Faldas</a></li>
+									<li><a class="dropdown-item" href="">Pantalones</a></li>
+									<li><a class="dropdown-item" href="">Vestidos</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Niña/o
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="">Blusas</a></li>
+									<li><a class="dropdown-item" href="">Camisetas</a></li>
+									<li><a class="dropdown-item" href="">Faldas</a></li>
+									<li><a class="dropdown-item" href="">Pantalones</a></li>
+									<li><a class="dropdown-item" href="">Vestidos</a></li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="">Ofertas</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="">Vender</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
 
-          <h1 class="titulo text-center">
-            <img src="../img/pod.png" alt="" width="60" height="44" class="d-inline-block align-text-top">
-            N'T Just Aesthetics
-          </h1>
+	<div class="container container-productos">
+		<div class="row">
 
-        </div>
+			<div class="col-sm-3 col-card">
+				<div class="card">
+					<img src="../img/LAUREN RALPH.jpg" class="card-img-top" alt="...">
+					<h5 class="card-title text-center">Ralph Lauren</h5>
+					<div class="card-body">
+            <p class="card-text"><small class="text-muted">Color: Rojo</small></p>
+            <p class="card-text">Camiseta de algodón con cuello barco</p>
+            <p class="card-text">$ 70.000</p>
+            <div class="d-flex justify-content-center">
+							<a href="./productos.html" class="btn btn-card">Añadir Producto</a>
+						</div>
+					</div>
+				</div>
+			</div>
 
-      </div>
+			<div class="col-sm-3 col-card">
+				<div class="card">
+					<img src="../img/Producto2.PNG" class="card-img-top" alt="...">
+					<h5 class="card-title text-center">Lejame Tr</h5>
+					<div class="card-body">
+            <p class="card-text"><small class="text-muted">Color: Cafe</small></p>
+            <p class="card-text">Conjunto de dos piezas</p>
+            <p class="card-text">$ 150.000</p>
+            <div class="d-flex justify-content-center">
+							<a href="./productos.html" class="btn btn-card">Añadir Producto</a>
+						</div>
+					</div>
+				</div>
+			</div>
 
-    </div>
+			<div class="col-sm-3 col-card">
+				<div class="card">
+					<img src="../img/Alex Evening.jpg" class="card-img-top" alt="...">
+					<h5 class="card-title text-center">Alex Evenings</h5>
+					<div class="card-body">
+            <p class="card-text"><small class="text-muted">Color: Azul marino</small></p>
+            <p class="card-text">Vestido de noche largo de lentejuelas con detalle de nudo en la parte delantera</p>
+            <p class="card-text">$ 400.000</p>
+            <div class="d-flex justify-content-center">
+							<a href="./productos.html" class="btn btn-card">Añadir Producto</a>
+						</div>
+					</div>
+				</div>
+			</div>
 
-  </header>
+			<div class="col-sm-3 col-card">
+				<div class="card">
+					<img src="../img/Levis.jpg" class="card-img-top" alt="...">
+					<h5 class="card-title text-center">Levi's Premium</h5>
+					<div class="card-body">
+            <p class="card-text"><small class="text-muted">Color: Negro</small></p>
+            <p class="card-text">Pantalon recto de tiro alto</p>
+            <p class="card-text">$ 100.000</p>
+            <div class="d-flex justify-content-center">
+							<a href="./productos.html" class="btn btn-card">Añadir Producto</a>
+						</div>
+					</div>
+				</div>
+			</div>
 
-  <div class="sticky-top" id="menu">
+		</div>
+	</div>
 
-    <div class="d-flex justify-content-center">
+	<div class="footer">
+		<div class="container">
+			<div class="row">
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="../index.html">Inicio</a>
-              </li>
-              <!--<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-								data-bs-toggle="dropdown" aria-expanded="false">
-								Productos
-							</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="#">Hombres</a></li>
-								<li><a class="dropdown-item" href="#">Mujeres</a></li>
-								<li><a class="dropdown-item" href="#">Niños</a></li>
-							</ul>
-						</li>-->
-              <li class="nav-item">
-                <a class="nav-link" href="./productos.html">Productos</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Nosotros
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="./info.html">Misión y Visión</a></li>
-                  <li><a class="dropdown-item" href="./objetivos.html">Objectivos Corporativos</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contactenos.html">Contáctenos</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+				<div class="col-sm-5">
+					<p class="footer-p">Empresa</p>
+					<ul>
+						<li><a href="./info.html#quienes_somos">Acerca de N'T Just Aesthetics</a></li>
+						<li><a href="./info.html#mision_vision">Misión y Visión</a></li>
+						<li><a href="./objetivos.html">Objetivos Corporativos</a></li>
+					</ul>
+				</div>
 
-    </div>
+				<div class="col-sm-4">
+					<p class="footer-p">Atención al cliente</p>
+					<ul>
+						<li><a href="./contactenos.html">Contáctenos</a></li>
+					</ul>
+				</div>
 
-  </div>
+				<div class="col-sm-3">
+					<p class="footer-p">Siguenos</p>
+					<ul>
+						<li><a href=""><img src="../img/facebook.png" class="social" alt="facebook">  Facebook</a></li>
+						<li><a href=""><img src="../img/instagram.png" class="social" alt="instagram">  Instagram</a></li>
+					</ul>
+				</div>
 
-  <div class="card-deck">
-    <div class="card">
-      <img class="card-img-top" src="../img/LAUREN RALPH.jpg" alt="Card image cap">
-      <div class="card-body">
-        <p class="card-text"><small class="text-muted">Color: Rojo</small></p>
-        <h5 class="card-title">Ralph Lauren</h5>
-        <p class="card-text">Camiseta de algodón con cuello barco</p>
-        <p class="card-text">$ 50.000</p>
-      </div>
-    </div>
+			</div>
+		</div>
+	</div>
 
-    <div class="card">
-      <img class="card-img-top" src="../img/Alex Evening.jpg" alt="Card image cap">
-      <div class="card-body">
-        <p class="card-text"><small class="text-muted">Color: Azul marino</small></p>
-        <h5 class="card-title">Alex Evenings</h5>
-        <p class="card-text">Vestido de noche largo de lentejuelas con detalle de nudo en la parte delantera</p>
-        <p class="card-text">$ 400.000</p>
-      </div>
-    </div>
-
-    <div class="card">
-      <img class="card-img-top" src="../img/Levis.jpg" alt="Card image cap">
-      <div class="card-body">
-        <p class="card-text"><small class="text-muted">Color: Negro</small></p>
-        <h5 class="card-title">Levi's Premium</h5>
-        <p class="card-text">Pantalon recto de tiro alto</p>
-        <p class="card-text">$ 100.000</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-5">
-          <p class="footer-p">Empresa</p>
-          <ul>
-            <li><a href="#">Acerca de N'T Just Aesthetics</a></li>
-            <li><a href="#">Misión y Visión</a></li>
-            <li><a href="#">Objetivos Corporativos</a></li>
-          </ul>
-        </div>
-
-        <div class="col-sm-4">
-          <p class="footer-p">Atención al cliente</p>
-          <ul>
-            <li><a href="#">Contáctenos</a></li>
-          </ul>
-        </div>
-
-        <div class="col-sm-3">
-          <p class="footer-p">Siguenos</p>
-          <ul>
-            <li><a href="#"><img src="../img/facebook.png" class="social" alt="facebook"> Facebook</a></li>
-            <li><a href="#"><img src="../img/instagram.png" class="social" alt="instagram"> Instagram</a></li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-    crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
-    crossorigin="anonymous"></script>
-  <script src="./js/javascript.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+		crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+		integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+		crossorigin="anonymous"></script>
+	<script src="../js/javascript.js"></script>
 </body>
 
 </html>

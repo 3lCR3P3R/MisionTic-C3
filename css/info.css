@@ -1,20 +1,15 @@
-#info-page {
-    text-align: center;
-    padding: 40px 0px;
-}
-
-#info-page div {
-    text-align: center;
-    padding: 30px 0px;
+section .row {
+    padding: 50px 0px 50px;
 }
 
 .titulo {
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .parrafo {
-    text-align: left;
-    margin: 0 auto;
-    width: 50%;
-    font-size: 30px;
+    font-size: 20px;
+}
+
+.footer {
+    margin-top: 25px;
 }
