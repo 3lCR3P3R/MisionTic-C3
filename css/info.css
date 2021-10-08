@@ -13,3 +13,12 @@ section .row {
 .footer {
     margin-top: 25px;
 }
+
+#objetivos_corporativos li{
+    color: #000 !important;
+}
+
+#objetivos_corporativos ul{
+    position: relative;
+    left: 20px;
+}

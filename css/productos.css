@@ -2,19 +2,17 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.card {
+/* .card {
     max-width: 250px;
-    /* background-color:#746D75!important; */
-}
+} */
 
 .card-title {
     font-weight: 550;
 }
 
-.card-img-top { 
+/* .card-img-top { 
     height: 300px;
-        
-}
+} */
 
 .card-text {
       width: 200px;
@@ -22,9 +20,3 @@
       text-overflow: ellipsis;
       overflow: hidden;
 }
-.card-deck {
-    margin:60px auto 0px auto!important;
-    padding: 10px 0px 50px 0px;
-}
-
-
